@@ -1,0 +1,169 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10rpx 40rpx 0rpx 40rpx;
+}
+
+.date{
+  display: flex;
+  flex-direction: row;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+.day{
+  font-size: 75rpx;
+  color: #333;
+  margin-right: 5rpx;
+  font-weight: bold;
+}
+
+.year-month{
+  font-size: 26rpx;
+  color: #333;
+  margin-right: 5rpx;
+  margin-top: 44rpx;
+}
+
+.week{
+  font-size: 26rpx;
+  color: #333;
+  font-weight: bold;
+  margin-top: 44rpx;
+}
+
+.weather{
+  padding-top: 40rpx;
+  white-space: 3rpx;
+  font-size: 26rpx;
+  color: #666;
+}
+
+.image{
+  height: 500rpx;
+}
+
+.zaoan{
+  position: absolute;
+  top: 140rpx;
+  left: 40rpx;
+  display: flex;
+  flex-direction: row;
+  z-index: 2
+}
+
+.zao{
+  font-size: 75rpx;
+  color: #fff;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.an{
+  font-size: 70rpx;
+  color: #fff;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding-top: 50rpx;
+  position: absolute;
+  left: 50rpx;
+}
+
+.img {
+  width: 100%;
+  height: 500rpx;
+  position: absolute;
+  z-index: -1
+}
+
+.nongli{
+  position: absolute;
+  top: 140rpx;
+  left: 645rpx;
+  display: flex;
+  flex-direction: row-reverse;
+  z-index: 2;
+}
+
+.li-space{
+  width: 2rpx;
+  height: 120rpx;
+  background-color: #fff;
+  margin: 5rpx 5rpx 0 5rpx;
+}
+
+.rili{
+  display: flex;
+  flex-direction: column;
+  white-space: 0rpx;
+}
+
+.text{
+  font-size: 25rpx;
+  color: #fff
+}
+
+.text-top{
+  padding-top: 25rpx;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img-source{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding-top: 10rpx;
+}
+
+.author{
+  font-size: 28rpx;
+  color: #666;
+  margin-right: 10rpx;
+}
+
+.vspace{
+  width: 2rpx;
+  height: 24rpx;
+  margin-top: 10rpx;
+  background-color: #666;
+  margin-right: 10rpx;
+}
+
+.img-author{
+  font-size: 28rpx;
+  color: #666;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin: 40rpx 40rpx 0 40rpx;
+}
+
+.detail{
+  font-size: 36rpx;
+  color: #333;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: 500;
+  /* 文本两端对齐 */
+  text-align: justify;
+  padding-top: 30rpx;
+  display: -webkit-box;
+ /* 文字垂直排列 */
+ -webkit-box-orient: vertical;
+ margin: auto;
+}
+
+.img-refresh{
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 980rpx;
+  align-self: flex-end;
+  right: 40rpx;
+}

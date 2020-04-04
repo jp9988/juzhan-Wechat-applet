@@ -1,0 +1,26 @@
+<!--pages/yiju/yiju.wxml-->
+<view class="container">
+  <view data-src="{{content.imgurl}}" catchtap="viewMoviePostImg" class="image">
+    <image src="{{content.imgurl}}" class="img" />
+    <view class="day-author">
+      <text class="downday">{{day}}</text>
+      <text class="upday">{{day}}</text>
+      <view class="img-source">
+        <text class="author">图</text>
+        <view class="vspace"></view>
+        <text class="img-author">{{content.imgauthor}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="text">
+    <view class="date">
+      <text class="year-month">{{year}}.{{month}}</text>
+      <text class="week">{{weekday}}</text>
+    </view>
+    <view class="content">
+      <text class="detail">{{content.word}}</text>
+      <text class="source">{{content.wordfrom}}</text>
+    </view>
+  </view>
+  <image src="../../images/refresh.png" class="img-refresh" catchtap="onRefresh"></image>
+</view>

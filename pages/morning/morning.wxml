@@ -1,0 +1,46 @@
+<view class="container">
+  <view class="top">
+    <view class="date">
+      <text class="day">{{day}}</text>
+      <text class="year-month">{{month}}.{{year}}</text>
+      <text class="week">{{weekday}}</text>
+    </view>
+    <text class="weather">{{address}} · {{content.weather}} {{content.real}} 今</text>
+  </view>
+  <view  class="image">
+    <view class="image-nongli">
+      <image src="{{imgurl}}" class="img" mode="scaleToFill" />
+      <view class="zaoan">
+        <text class="zao">早</text>
+        <text class="an">安</text>
+      </view>
+      <view class="nongli">
+        <view class="li-space"></view>
+        <view class="rili">
+          <text class="text">{{TG}}</text>
+          <text class="text">{{DZ}}</text>
+          <text class="text">{{SX}}</text>
+          <text class="text">{{NF}}</text>
+        </view>
+        <view class="text-top">
+          <view class="li-space"></view>
+          <view class="rili">
+            <text class="text">{{Mon}}</text>
+            <text class="text">{{Yue}}</text>
+            <text class="text">{{Th}}</text>
+            <text class="text">{{Num}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="img-source">
+    <text class="author">图</text>
+    <view class="vspace"></view>
+    <text class="img-author">源自网络</text>
+  </view>
+  <view class="content">
+    <text class="detail">{{detail.content}}</text>
+  </view>
+  <image src="../../images/refresh.png" class="img-refresh" catchtap="onRefresh"></image>
+</view>

@@ -1,0 +1,136 @@
+/* pages/yiju/yiju.wxss */
+
+page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.image {
+  height: 450rpx;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 100%;
+  height: 500rpx;
+  position: absolute;
+}
+
+.day-author {
+  display: flex;
+  flex-direction: row;
+}
+
+.downday {
+  font-size: 100px;
+  color: #d5d5d5;
+  position: absolute;
+  left: 50rpx;
+  top: 340rpx;
+  /* opacity: 0.8; */
+  z-index: -1;
+}
+
+.upday {
+  font-size: 100px;
+  color: #fff;
+  position: absolute;
+  left: 62rpx;
+  top: 340rpx;
+  /* opacity: 0.9; */
+  z-index: 2;
+}
+
+.img-source {
+  display: flex;
+  flex-direction: row;
+  padding-top: 520rpx;
+  margin-left: 320rpx;
+  z-index: 2;
+}
+
+.author {
+  font-size: 28rpx;
+  color: #666;
+  margin-right: 10rpx;
+}
+
+.vspace {
+  width: 2rpx;
+  height: 24rpx;
+  margin-top: 10rpx;
+  background-color: #666;
+  margin-right: 10rpx;
+}
+
+.img-author {
+  font-size: 28rpx;
+  color: #666;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+
+.date {
+  margin-top: 110rpx;
+  align-self: flex-end;
+}
+
+.year-month {
+  font-size: 32rpx;
+  color: #666;
+  margin-right: 10rpx;
+}
+
+.week {
+  font-size: 36rpx;
+  color: #333;
+  font-weight: 500;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60rpx;
+}
+
+.detail {
+  font-size: 36rpx;
+  color: #333;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: 500;
+  /* 文本两端对齐 */
+  text-align: justify;
+  padding-top: 30rpx;
+  display: -webkit-box;
+  /* 文字垂直排列 */
+  -webkit-box-orient: vertical;
+  margin: auto;
+}
+
+.source {
+  font-size: 36rpx;
+  color: #333;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: 500;
+  margin-top: 20rpx;
+  align-self: flex-end;
+}
+
+.img-refresh {
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 970rpx;
+  align-self: flex-end;
+  right: 50rpx;
+}

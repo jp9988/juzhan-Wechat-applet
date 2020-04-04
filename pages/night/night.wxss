@@ -1,0 +1,167 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+ .bg-image{
+    display: block;
+    width: 100%;
+    height: 1320rpx;
+    z-index: -1;
+  }
+
+
+/* 第二种让图片铺满的方法 wxml不加image标签 */
+/* .container{
+  background-image: url('https://source.unsplash.com/daily?night');
+  width: 750rpx;
+  height: 1320rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+} */
+
+.to-top {
+  position: absolute;
+  top: 20rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0rpx 40rpx 0rpx 40rpx;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.day {
+  font-size: 75rpx;
+  color: #fff;
+  margin-right: 5rpx;
+  font-weight: bold;
+}
+
+.year-month {
+  font-size: 26rpx;
+  color: #fff;
+  margin-right: 5rpx;
+  margin-top: 44rpx;
+}
+
+.weather {
+  padding-top: 40rpx;
+  white-space: 3rpx;
+  font-size: 26rpx;
+  color: #fff;
+}
+
+.to-wanan {
+  position: absolute;
+  width: 100%;
+  top: 140rpx;
+}
+
+.wanan {
+  width: 450rpx;
+  height: 450rpx;
+  background-color: rgb(161, 161, 161, 0.3);
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+}
+
+.wanan-down{
+  display: flex;
+  flex-direction: column;
+}
+
+.wanan-ZH {
+  font-size: 100rpx;
+  color: #fff;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding-top: 110rpx;
+  padding-left: 130rpx;
+}
+
+.wanan-EN {
+  font-size: 50rpx;
+  color: #fff;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding-left: 95rpx;
+}
+
+.nongli {
+  position: absolute;
+  top: 140rpx;
+  left: 645rpx;
+  display: flex;
+  flex-direction: row-reverse;
+  z-index: 2;
+}
+
+.li-space {
+  width: 2rpx;
+  height: 120rpx;
+  background-color: #fff;
+  margin: 5rpx 5rpx 0 5rpx;
+}
+
+.rili {
+  display: flex;
+  flex-direction: column;
+  white-space: 0rpx;
+}
+
+.text {
+  font-size: 25rpx;
+  color: #fff;
+}
+
+.text-top {
+  padding-top: 25rpx;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin: 40rpx 40rpx 0 40rpx;
+}
+
+.detail{
+  font-size: 36rpx;
+  color: #fff;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: 500;
+  line-height: 50rpx;
+  /* 文本两端对齐 */
+  text-align: justify;
+  padding-top: 520rpx;
+  display: -webkit-box;
+ /* 文字垂直排列 */
+ -webkit-box-orient: vertical;
+ margin: auto;
+}
+
+.img-refresh{
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 950rpx;
+  align-self: flex-end;
+  right: 40rpx;
+}
